@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+header {
+    background-color: #212529;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.logo {
+    width: 100px;
+}
+main {
+    padding: 2em;
+}
+.autos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.auto {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.auto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
